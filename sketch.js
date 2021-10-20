@@ -131,7 +131,7 @@ function draw() {
     shrubsGroup.setVelocityXEach(0)
     gameOver.visible = true
   restart.visible = true
- 
+  kangaroo.changeAnimation("collided",kangaroo_collided)
    }
 
 
